@@ -362,6 +362,7 @@
 			     | [\s.]gsub\s
 			     | [\s.]gsub!\s
 			     | [\s.]match\s
+                 | [\s.]               # umm blank space?
 			     )
 			   | (?<=                  # or a look-behind with line anchor:
 			        ^when\s            # duplication necessary due to limits of regex
